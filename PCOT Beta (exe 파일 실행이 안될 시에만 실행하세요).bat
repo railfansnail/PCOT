@@ -1,58 +1,25 @@
-::[Bat To Exe Converter]
-::
-::YAwzoRdxOk+EWAjk
-::fBw5plQjdCyDJGyX8VAjFAlVRQiEPWWpCLQV5NTf4P2JrkIcUPED9E8nUX5HrB33p8kakB3tE/evTEfP0Je8pp5RmjB5+T4T+G2GOKc=
-::YAwzuBVtJxjWCl3EqQJgSA==
-::ZR4luwNxJguZRRnk
-::Yhs/ulQjdF+5
-::cxAkpRVqdFKZSDk=
-::cBs/ulQjdF+5
-::ZR41oxFsdFKZSDk=
-::eBoioBt6dFKZSDk=
-::cRo6pxp7LAbNWATEpCI=
-::egkzugNsPRvcWATEpCI=
-::dAsiuh18IRvcCxnZtBJQ
-::cRYluBh/LU+EWAnk
-::YxY4rhs+aU+IeA==
-::cxY6rQJ7JhzQF1fEqQJhZksGAlTRcjnqVOZ8
-::ZQ05rAF9IBncCkqN+0xwdVsFAlTQcjvpSOdMurub
-::ZQ05rAF9IAHYFVzEqQIACzRgDCaHKGra
-::eg0/rx1wNQPfEVWB+kM9LVsJDDShE1/a
-::fBEirQZwNQPfEVWB+kM9LVsJDDShE1/a
-::cRolqwZ3JBvQF1fEqQIAC5eptEQOwqs2+HmQKAl3EjLHLrXZ3yfHOAIuDj5c8GrANgVoiE6gMqrRfBxMgP219f1PLoPhVeKCV+l8w4cXQN5tt6zJarXAkIqNC58MB+rHIF+DXk71Oq1LKME8Qy76JThzpVmD9LdqB2EoCOpAcd9I5IkpF0qhCnsGv/3ZIBn8r5f6B5srAGiu0OM=
-::dhA7uBVwLU+EWDk=
-::YQ03rBFzNR3SWATElA==
-::dhAmsQZ3MwfNWATElA==
-::ZQ0/vhVqMQ3MEVWAtB9wSA==
-::Zg8zqx1/OA3MEVWAtB9wSA==
-::dhA7pRFwIByZRRnk
-::Zh4grVQjdCyDJGyX8VAjFAlVRQiEPWWpCLQV5NTf6vmMtkINaNIcV7ub+LGaIaBCpBW2O8Z+mCgKypgwPDh3SlKJaxs16SbIYoQO8QsQTf+hwJ5la77Ml5moDKIszKfQpF6ec072K6xaJMEFa+xe1GD6Pg==
-::YB416Ek+ZG8=
-::
-::
-::978f952a14a936cc963da21a135fa983
 @echo off
 
 choice /t 3 /d y >   nul
 
-echo ¸¸µç »ç¶÷: Ã¶´öÆØÀÌ
-echo ¹èÆ÷ Å¬¶ó¿ìµå¿¡¼­ ²À ÃÖ½Å ¹öÀüÀ» ³»·Á¹Þ¾Æ »ç¿ëÇÏ¼¼¿ä! (http://naver.me/53BTDDvq)
+echo ë§Œë“  ì‚¬ëžŒ: ì² ë•íŒ½ì´
+echo ë°°í¬ í´ë¼ìš°ë“œì—ì„œ ê¼­ ìµœì‹  ë²„ì „ì„ ë‚´ë ¤ë°›ì•„ ì‚¬ìš©í•˜ì„¸ìš”! (http://naver.me/53BTDDvq)
 
 choice /t 5 /d y >   nul
 
 cls
 
-echo PCOT ¹öÀü Á¤º¸: alpha 1.02.03.2023
+echo PCOT ë²„ì „ ì •ë³´: alpha 1.02.03.2023
 
 choice /t 5 /d y >   nul
 
 cls 
 
-echo µµ±¸ ÀÌ¿ë¾à°ü(ÁöÄ§)¿¡ µ¿ÀÇÇÏ¼Å¾ß µµ±¸ »ç¿ëÀÌ °¡´ÉÇÕ´Ï´Ù. (¾ÐÃàÇ¬ Æú´õ ³»¿¡ ÀÖ½À´Ï´Ù)
+echo ë„êµ¬ ì´ìš©ì•½ê´€(ì§€ì¹¨)ì— ë™ì˜í•˜ì…”ì•¼ ë„êµ¬ ì‚¬ìš©ì´ ê°€ëŠ¥í•©ë‹ˆë‹¤. (ì••ì¶•í‘¼ í´ë” ë‚´ì— ìžˆìŠµë‹ˆë‹¤)
 
 pause
 
-echo µµ±¸¸¦ ÃÊ±âÈ­ÇÏ´Â Áß . . . 
+echo ë„êµ¬ë¥¼ ì´ˆê¸°í™”í•˜ëŠ” ì¤‘ . . . 
 
 choice /t 10 /d y >   nul
 
@@ -60,7 +27,7 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo µµ±¸ÀÇ ¸ðµç ÇÁ·Î¼¼½º¸¦ ÁØºñÇÏ´Â Áß . . .
+echo ë„êµ¬ì˜ ëª¨ë“  í”„ë¡œì„¸ìŠ¤ë¥¼ ì¤€ë¹„í•˜ëŠ” ì¤‘ . . .
 
 choice /t 5 /d y >   nul
 
@@ -68,7 +35,7 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo 1´Ü°è ÇÁ·Î¼¼½º. DISM.exe¸¦ ÀÌ¿ëÇØ OS¿¡ ¹®Á¦°¡ ¾ø´ÂÁö È®ÀÎÇÕ´Ï´Ù.
+echo 1ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤. DISM.exeë¥¼ ì´ìš©í•´ OSì— ë¬¸ì œê°€ ì—†ëŠ”ì§€ í™•ì¸í•©ë‹ˆë‹¤.
 
 choice /t 3 /d y >   nul
 
@@ -76,9 +43,9 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT ¹öÀü Á¤º¸: alpha 1.02.03.2023
+echo PCOT ë²„ì „ ì •ë³´: alpha 1.02.03.2023
 
-echo 1-1´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
+echo 1-1ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
 
 choice /t 1 /d y >   nul
 
@@ -86,7 +53,7 @@ DISM.exe /online /cleanup-image /checkhealth
 
 choice /t 1 /d y >  nul
 
-echo 1-2´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
+echo 1-2ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
 
 choice /t 1 /d y >   nul
 
@@ -94,7 +61,7 @@ DISM.exe /online /cleanup-image /scanhealth
 
 choice /t 1 /d y >  nul
 
-echo 1-3´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
+echo 1-3ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
 
 choice /t 1 /d y >   nul
 
@@ -106,7 +73,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 1´Ü°è ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù.
+echo 1ë‹¨ê³„ ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤.
 
 choice /t 3 /d /y >  nul
 
@@ -114,7 +81,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 2´Ü°è ÇÁ·Î¼¼½º. sfc /scannow¸¦ ÀÌ¿ëÇØ OS¿¡ ¹®Á¦°¡ ¾ø´ÂÁö È®ÀÎÇÕ´Ï´Ù.
+echo 2ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤. sfc /scannowë¥¼ ì´ìš©í•´ OSì— ë¬¸ì œê°€ ì—†ëŠ”ì§€ í™•ì¸í•©ë‹ˆë‹¤.
 
 choice /t 3 /d y >   nul
 
@@ -122,9 +89,9 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT ¹öÀü Á¤º¸: alpha 1.02.03.2023
+echo PCOT ë²„ì „ ì •ë³´: alpha 1.02.03.2023
 
-echo 2´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
+echo 2ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
 
 choice /t 1 /d y >   nul
 
@@ -136,7 +103,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 2´Ü°è ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù.
+echo 2ë‹¨ê³„ ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤.
 
 choice /t 3 /d /y >  nul
 
@@ -144,7 +111,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 3´Ü°è ÇÁ·Î¼¼½º. ipconfig¸¦ ÀÌ¿ëÇØ DNS Ä³½Ã¸¦ Á¤¸®ÇÕ´Ï´Ù. (ÇÃ·¯½Ã)
+echo 3ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤. ipconfigë¥¼ ì´ìš©í•´ DNS ìºì‹œë¥¼ ì •ë¦¬í•©ë‹ˆë‹¤. (í”ŒëŸ¬ì‹œ)
 
 choice /t 3 /d y >   nul
 
@@ -152,9 +119,9 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT ¹öÀü Á¤º¸: alpha 1.02.03.2023
+echo PCOT ë²„ì „ ì •ë³´: alpha 1.02.03.2023
 
-echo 3-1´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
+echo 3-1ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
 
 choice /t 1 /d y >   nul
 
@@ -162,7 +129,7 @@ ipconfig /displaydns
 
 choice /t 1 /d y >  nul
 
-echo 3-2´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
+echo 3-2ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
 
 ipconfig /flushdns
 
@@ -172,7 +139,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 3´Ü°è ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù.
+echo 3ë‹¨ê³„ ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤.
 
 choice /t 3 /d /y >  nul
 
@@ -180,7 +147,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 4´Ü°è ÇÁ·Î¼¼½º. netsh¸¦ ÀÌ¿ëÇØ ÀÎÅÍ³Ý ¼ö½Å ¼Óµµ¸¦ °­Á¦ÀûÀ¸·Î ºü¸£°Ô ÇÕ´Ï´Ù.
+echo 4ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤. netshë¥¼ ì´ìš©í•´ ì¸í„°ë„· ìˆ˜ì‹  ì†ë„ë¥¼ ê°•ì œì ìœ¼ë¡œ ë¹ ë¥´ê²Œ í•©ë‹ˆë‹¤.
 
 choice /t 3 /d y >   nul
 
@@ -188,9 +155,9 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT ¹öÀü Á¤º¸: alpha 1.02.03.2023
+echo PCOT ë²„ì „ ì •ë³´: alpha 1.02.03.2023
 
-echo 4-1´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
+echo 4-1ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
 
 choice /t 1 /d y >   nul
 
@@ -198,7 +165,7 @@ netsh int tcp show global
 
 choice /t 1 /d y >  nul
 
-echo 4-2´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
+echo 4-2ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
 
 netsh interface tcp set global autotuninglevel=highlyrestricted
 
@@ -208,7 +175,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 4´Ü°è ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù.
+echo 4ë‹¨ê³„ ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤.
 
 choice /t 3 /d /y >  nul
 
@@ -216,13 +183,13 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo ¸ðµç ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù. ÄÄÇ»ÅÍ°¡ ÀÚµ¿À¸·Î Àç½Ãµ¿µË´Ï´Ù. ³ªÁß¿¡ Àç½Ãµ¿ÇÏ·Á¸é 10ÃÊ ¾È¿¡ ÀÌ Ã¢À» ²ô½Ê½Ã¿À. 10ÃÊ Ä«¿îÆ®´Ù¿îÀÌ ÁøÇàµË´Ï´Ù. 
+echo ëª¨ë“  ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤. ì»´í“¨í„°ê°€ ìžë™ìœ¼ë¡œ ìž¬ì‹œë™ë©ë‹ˆë‹¤. ë‚˜ì¤‘ì— ìž¬ì‹œë™í•˜ë ¤ë©´ 10ì´ˆ ì•ˆì— ì´ ì°½ì„ ë„ì‹­ì‹œì˜¤. 10ì´ˆ ì¹´ìš´íŠ¸ë‹¤ìš´ì´ ì§„í–‰ë©ë‹ˆë‹¤. 
 
 timeout /t 10
 
-echo ÄÄÇ»ÅÍ°¡ Àá½Ã ÈÄ Àç½Ãµ¿µË´Ï´Ù . . .
+echo ì»´í“¨í„°ê°€ ìž ì‹œ í›„ ìž¬ì‹œë™ë©ë‹ˆë‹¤ . . .
 
-echo ÀÌ¿ëÇØÁÖ¼Å¼­ ´ë´ÜÈ÷ °¨»çÇÕ´Ï´Ù.
+echo ì´ìš©í•´ì£¼ì…”ì„œ ëŒ€ë‹¨ížˆ ê°ì‚¬í•©ë‹ˆë‹¤.
 
 shutdown -r -t 10
 
