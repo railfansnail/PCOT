@@ -16,24 +16,24 @@
 ::YxY4rhs+aU+IeA==
 ::cxY6rQJ7JhzQF1fEqQJiZksaHErSXA==
 ::ZQ05rAF9IBncCkqN+0xwdVsGAlbSbjj0VudSub+b
-::ZQ05rAF9IAHYFVzEqQIACzRgz+FBsZ9mimjbiA==
+::ZQ05rAF9IAHYFVzEqQIACzRgDIdn/ys38mmQNS+b
 ::eg0/rx1wNQPfEVWB+kM9LVsJDDShE1/a
-::fBEirQZwNQPfEVWB+kM9LVsJDDShE1/a
-::cRolqwZ3JBvQF1fEqQJQ
+::fBEirQZwNQPfEVWB+kM9LVsJDIl24OdnwdU=
+::cRolqwZ3JBvQF1fEqQIAC1vYmfgO/Io3/0GXLTS7Yh97KZ/12BXPOAIuDjhN/Gv5HgVpgXKmF4bQTxOH8tPUgPcghee/QqoM9iwJzwMRR+dtrKQFDI95ew==
 ::dhA7uBVwLU+EWDk=
 ::YQ03rBFzNR3SWATElA==
 ::dhAmsQZ3MwfNWATElA==
 ::ZQ0/vhVqMQ3MEVWAtB9wSA==
 ::Zg8zqx1/OA3MEVWAtB9wSA==
 ::dhA7pRFwIByZRRnk
-::Zh4grVQjdCyDJGyX8VAjFAlVRQiEPWWpCLQV5NTf4P2JrkIcUPEDSKz07jdr423nNsk5stZ/mCgKyphCXEkWLkWXXiwbnS5O9ulx60tBdE/JbmzFpngDPyX+VbtcduJ7KIA6ERrnXspmvME/eynqGDGxW7ELdQ==
+::Zh4grVQjdCyDJGyX8VAjFAlVRQiEPWWpCLQV5NTf4P2JrkIcUPEDSKz07jdr423nNsk5stZ/mCgKyphCXEkWLkWXXiwbnS5O9ulx60tBdE/JbmzJykIkHitxn2aw
 ::YB416Ek+ZW8=
 ::
 ::
 ::978f952a14a936cc963da21a135fa983
 @echo off
 
-color 3F
+color 2F
 
 choice /t 3 /d y >   nul
 
@@ -45,19 +45,17 @@ choice /t 5 /d y >   nul
 
 cls
 
-echo PCOT 버전: 2.2023.02.17 SSD/HDD 겸용 x32 Edition
+echo PCOT 버전: 2.2023.02.17 HDD 전용 Lite Edition
 
 choice /t 5 /d y >   nul
 
 cls 
 
-echo 도구 이용약관(지침)에 동의하셔야 도구 사용이 가능합니다. (프로그램을 압축 해제한 폴더 내에 있습니다)
+echo 도구 이용약관(지침)에 동의하셔야 도구 사용이 가능합니다. (압축푼 폴더 내에 있습니다)
 
 pause
 
 echo 도구를 초기화하는 중 . . . 
-
-pause
 
 choice /t 10 /d y >   nul
 
@@ -81,7 +79,7 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 2.2023.02.17 SSD/HDD 겸용 Edition
+echo PCOT 버전: 2.2023.02.17 HDD 전용 Lite Edition
 
 echo 1-1단계 프로세스 실행중 . . .
 
@@ -127,7 +125,7 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 2.2023.02.17 SSD/HDD 겸용 Edition
+echo PCOT 버전: 2.2023.02.17 HDD 전용 Lite Edition
 
 echo 2단계 프로세스 실행중 . . .
 
@@ -143,7 +141,7 @@ choice /t 1 /d y >  nul
 
 echo 2단계 작업이 끝났습니다.
 
-choice /t 3 /d /y >  nul
+choice /t 3 /d y >  nul
 
 cls 
 
@@ -157,7 +155,7 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 2.2023.02.17 SSD/HDD 겸용 Edition
+echo PCOT 버전: 2.2023.02.17 HDD 전용 Lite Edition
 
 echo 3-1단계 프로세스 실행중 . . .
 
@@ -193,7 +191,7 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 2.2023.02.17 SSD/HDD 겸용 Edition
+echo PCOT 버전: 2.2023.02.17 HDD 전용 Lite Edition
 
 echo 4-1단계 프로세스 실행중 . . .
 
@@ -229,7 +227,7 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 2.2023.02.17 SSD/HDD 겸용 Edition
+echo PCOT 버전: 2.2023.02.17 HDD 전용 Lite Edition
 
 echo 5단계 프로세스 실행중 . . .
 
@@ -243,7 +241,7 @@ cleanmgr.exe
 
 echo 5단계 작업이 끝났습니다.
 
-choice /t 3 /d y >  nul
+choice /t 3 /d /y >  nul
 
 cls 
 
@@ -257,13 +255,13 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 2.2023.02.17 SSD/HDD 겸용 Edition
+echo PCOT 버전: 2.2023.02.17 HDD 전용 Lite Edition
 
 echo 6단계 프로세스 실행중 . . .
 
 choice /t 1 /d y >   nul
 
-powercfg -h off
+powercfg -h /off
 
 choice /t 1 /d y >  nul
 
@@ -279,7 +277,41 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 7단계 프로세스. 여기서부터는 부팅 및 게임 최적화가 시작됩니다. bcdedit과 fsutil, 그리고 REG add를 이용하여 부팅 시간을 줄이고, 게임 환경에 최적화시킵니다.
+echo 7단계 프로세스. 디스크를 조각모음하여 디스크 성능을 개선합니다.
+
+choice /t 3 /d y >   nul
+
+cls
+
+choice /t 1 /d y >   nul
+
+echo PCOT 버전: 2.2023.02.17 HDD 전용 Lite Edition
+
+echo 7단계 프로세스 실행중 . . .
+
+choice /t 1 /d y >   nul
+
+defrag c:\ /v /u
+
+choice /t 1 /d y >  nul
+
+cls
+
+choice /t 1 /d y >  nul
+
+echo 7단계 작업이 끝났습니다.
+
+choice /t 3 /d y >  nul
+
+cls 
+
+choice /t 1 /d y >  nul
+
+cls 
+
+choice /t 1 /d y >  nul
+
+echo 8단계 프로세스. 여기서부터는 부팅 및 게임 최적화가 시작됩니다. bcdedit과 fsutil, 그리고 REG add를 이용하여 부팅 시간을 줄이고, 게임 환경에 최적화시킵니다.
 
 pause
 
@@ -289,7 +321,7 @@ echo PCOT 버전: 2.2023.02.17 SSD/HDD 겸용 Edition
 
 choice /t 1 /d y >  nul
 
-echo 7단계 프로세스 실행 중
+echo 8단계 프로세스 실행 중
 
 bcdedit /set disabledynamictick yes
 
@@ -321,11 +353,7 @@ choice /t 1 /d y >  nul
 
 REG add "HKLM\SYSTEM\CurrentControlSet\Control" /v WaitToKillServiceTimeout /t REG_SZ /d 5000 /f
 
-choice /t 1 /d y >  nul
-
-cls
-
-choice /t 3 /d y >  nul
+choice /t 5 /d y >  nul
 
 echo 모든 작업이 끝났습니다. 컴퓨터가 자동으로 재시동됩니다. 나중에 재시동하려면 30초 안에 이 창을 끄십시오. 30초 카운트다운이 진행됩니다. 
 

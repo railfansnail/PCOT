@@ -1,28 +1,61 @@
+::[Bat To Exe Converter]
+::
+::YAwzoRdxOk+EWAjk
+::fBw5plQjdCyDJGyX8VAjFAlVRQiEPWWpCLQV5NTf4P2JrkIcUPEDSKz07jdr423nNsk5stZ/mCgKyphCXEkWLkWX4vrQJZOWOrl9C/e/nDusY0uG6AU5GGoU
+::YAwzuBVtJxjWCl3EqQJgSA==
+::ZR4luwNxJguZRRnk
+::Yhs/ulQjdF+5
+::cxAkpRVqdFKZSDk=
+::cBs/ulQjdF+5
+::ZR41oxFsdFKZSDk=
+::eBoioBt6dFKZSDk=
+::cRo6pxp7LAbNWATEpCI=
+::egkzugNsPRvcWATEpCI=
+::dAsiuh18IRvcCxnZtBJQ
+::cRYluBh/LU+EWAnk
+::YxY4rhs+aU+IeA==
+::cxY6rQJ7JhzQF1fEqQJiZksaHErSXA==
+::ZQ05rAF9IBncCkqN+0xwdVsGAlbSbjj0VudSub+b
+::ZQ05rAF9IAHYFVzEqQIACzRgz+FBsZ9mimjbiA==
+::eg0/rx1wNQPfEVWB+kM9LVsJDDShE1/a
+::fBEirQZwNQPfEVWB+kM9LVsJDDShE1/a
+::cRolqwZ3JBvQF1fEqQJQ
+::dhA7uBVwLU+EWDk=
+::YQ03rBFzNR3SWATElA==
+::dhAmsQZ3MwfNWATElA==
+::ZQ0/vhVqMQ3MEVWAtB9wSA==
+::Zg8zqx1/OA3MEVWAtB9wSA==
+::dhA7pRFwIByZRRnk
+::Zh4grVQjdCyDJGyX8VAjFAlVRQiEPWWpCLQV5NTf4P2JrkIcUPEDSKz07jdr423nNsk5stZ/mCgKyphCXEkWLkWXXiwbnS5O9ulx60tBdE/JbmzJyEQiFmR4yWbIiUs=
+::YB416Ek+ZW8=
+::
+::
+::978f952a14a936cc963da21a135fa983
 @echo off
 
 color 6F
 
 choice /t 3 /d y >   nul
 
-echo ë§Œë“  ì‚¬ëžŒ: ì² ë•íŒ½ì´
+echo ¸¸µç »ç¶÷: Ã¶´öÆØÀÌ
 
-echo ë°°í¬ í´ë¼ìš°ë“œì—ì„œ ê¼­ ìµœì‹  ë²„ì „ì„ ë‚´ë ¤ë°›ì•„ ì‚¬ìš©í•˜ì„¸ìš”! (http://naver.me/53BTDDvq)
+echo ¹èÆ÷ Å¬¶ó¿ìµå¿¡¼­ ²À ÃÖ½Å ¹öÀüÀ» ³»·Á¹Þ¾Æ »ç¿ëÇÏ¼¼¿ä! (http://naver.me/53BTDDvq)
 
 choice /t 5 /d y >   nul
 
 cls
 
-echo PCOT ë²„ì „: 1.02.06 HDD ì „ìš© Normal Edition
+echo PCOT ¹öÀü: 2.2023.02.17 HDD Àü¿ë Normal Edition
 
 choice /t 5 /d y >   nul
 
 cls 
 
-echo ë„êµ¬ ì´ìš©ì•½ê´€(ì§€ì¹¨)ì— ë™ì˜í•˜ì…”ì•¼ ë„êµ¬ ì‚¬ìš©ì´ ê°€ëŠ¥í•©ë‹ˆë‹¤. (ì••ì¶•í‘¼ í´ë” ë‚´ì— ìžˆìŠµë‹ˆë‹¤)
+echo µµ±¸ ÀÌ¿ë¾à°ü(ÁöÄ§)¿¡ µ¿ÀÇÇÏ¼Å¾ß µµ±¸ »ç¿ëÀÌ °¡´ÉÇÕ´Ï´Ù. (¾ÐÃàÇ¬ Æú´õ ³»¿¡ ÀÖ½À´Ï´Ù)
 
 pause
 
-echo ë„êµ¬ë¥¼ ì´ˆê¸°í™”í•˜ëŠ” ì¤‘ . . . 
+echo µµ±¸¸¦ ÃÊ±âÈ­ÇÏ´Â Áß . . . 
 
 choice /t 10 /d y >   nul
 
@@ -30,7 +63,7 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo ë„êµ¬ì˜ ëª¨ë“  í”„ë¡œì„¸ìŠ¤ë¥¼ ì¤€ë¹„í•˜ëŠ” ì¤‘ . . .
+echo µµ±¸ÀÇ ¸ðµç ÇÁ·Î¼¼½º¸¦ ÁØºñÇÏ´Â Áß . . .
 
 choice /t 5 /d y >   nul
 
@@ -38,7 +71,7 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo 1ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤. DISM.exeë¥¼ ì´ìš©í•´ OSì— ë¬¸ì œê°€ ì—†ëŠ”ì§€ í™•ì¸í•©ë‹ˆë‹¤.
+echo 1´Ü°è ÇÁ·Î¼¼½º. DISM.exe¸¦ ÀÌ¿ëÇØ OS¿¡ ¹®Á¦°¡ ¾ø´ÂÁö È®ÀÎÇÕ´Ï´Ù.
 
 choice /t 3 /d y >   nul
 
@@ -46,9 +79,9 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT ë²„ì „: 1.02.06 HDD ì „ìš© Normal Edition
+echo PCOT ¹öÀü: 2.2023.02.17 HDD Àü¿ë Normal Edition
 
-echo 1-1ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
+echo 1-1´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
 
 choice /t 1 /d y >   nul
 
@@ -56,7 +89,7 @@ DISM.exe /online /cleanup-image /checkhealth
 
 choice /t 1 /d y >  nul
 
-echo 1-2ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
+echo 1-2´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
 
 choice /t 1 /d y >   nul
 
@@ -64,7 +97,7 @@ DISM.exe /online /cleanup-image /scanhealth
 
 choice /t 1 /d y >  nul
 
-echo 1-3ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
+echo 1-3´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
 
 choice /t 1 /d y >   nul
 
@@ -76,7 +109,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 1ë‹¨ê³„ ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤.
+echo 1´Ü°è ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù.
 
 choice /t 3 /d /y >  nul
 
@@ -84,7 +117,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 2ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤. sfc /scannowë¥¼ ì´ìš©í•´ OSì— ë¬¸ì œê°€ ì—†ëŠ”ì§€ í™•ì¸í•©ë‹ˆë‹¤.
+echo 2´Ü°è ÇÁ·Î¼¼½º. sfc /scannow¸¦ ÀÌ¿ëÇØ OS¿¡ ¹®Á¦°¡ ¾ø´ÂÁö È®ÀÎÇÕ´Ï´Ù.
 
 choice /t 3 /d y >   nul
 
@@ -92,9 +125,9 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT ë²„ì „: 1.02.06 HDD ì „ìš© Normal Edition
+echo PCOT ¹öÀü: 2.2023.02.17 HDD Àü¿ë Normal Edition
 
-echo 2ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
+echo 2´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
 
 choice /t 1 /d y >   nul
 
@@ -106,7 +139,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 2ë‹¨ê³„ ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤.
+echo 2´Ü°è ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù.
 
 choice /t 3 /d /y >  nul
 
@@ -114,7 +147,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 3ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤. ipconfigë¥¼ ì´ìš©í•´ DNS ìºì‹œë¥¼ ì •ë¦¬í•©ë‹ˆë‹¤. (í”ŒëŸ¬ì‹œ)
+echo 3´Ü°è ÇÁ·Î¼¼½º. ipconfig¸¦ ÀÌ¿ëÇØ DNS Ä³½Ã¸¦ Á¤¸®ÇÕ´Ï´Ù. (ÇÃ·¯½Ã)
 
 choice /t 3 /d y >   nul
 
@@ -122,9 +155,9 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT ë²„ì „: 1.02.06 HDD ì „ìš© Normal Edition
+echo PCOT ¹öÀü: 2.2023.02.17 HDD Àü¿ë Normal Edition
 
-echo 3-1ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
+echo 3-1´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
 
 choice /t 1 /d y >   nul
 
@@ -132,7 +165,7 @@ ipconfig /displaydns
 
 choice /t 1 /d y >  nul
 
-echo 3-2ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
+echo 3-2´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
 
 ipconfig /flushdns
 
@@ -142,7 +175,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 3ë‹¨ê³„ ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤.
+echo 3´Ü°è ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù.
 
 choice /t 3 /d /y >  nul
 
@@ -150,7 +183,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 4ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤. netshë¥¼ ì´ìš©í•´ ì¸í„°ë„· ìˆ˜ì‹  ì†ë„ë¥¼ ê°•ì œì ìœ¼ë¡œ ë¹ ë¥´ê²Œ í•©ë‹ˆë‹¤.
+echo 4´Ü°è ÇÁ·Î¼¼½º. netsh¸¦ ÀÌ¿ëÇØ ÀÎÅÍ³Ý ¼ö½Å ¼Óµµ¸¦ °­Á¦ÀûÀ¸·Î ºü¸£°Ô ÇÕ´Ï´Ù.
 
 choice /t 3 /d y >   nul
 
@@ -158,9 +191,9 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT ë²„ì „: 1.02.06 HDD ì „ìš© Normal Edition
+echo PCOT ¹öÀü: 2.2023.02.17 HDD Àü¿ë Normal Edition
 
-echo 4-1ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
+echo 4-1´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
 
 choice /t 1 /d y >   nul
 
@@ -168,7 +201,7 @@ netsh int tcp show global
 
 choice /t 1 /d y >  nul
 
-echo 4-2ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
+echo 4-2´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
 
 netsh interface tcp set global autotuninglevel=highlyrestricted
 
@@ -178,7 +211,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 4ë‹¨ê³„ ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤.
+echo 4´Ü°è ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù.
 
 choice /t 3 /d /y >  nul
 
@@ -186,7 +219,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 5ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤. cleanmgr.exeë¥¼ ì´ìš©í•´ í•„ìš” ì—†ëŠ” ìž„ì‹œ íŒŒì¼ì„ ì œê±°í•˜ì—¬ ì„±ëŠ¥ì„ í–¥ìƒì‹œí‚¤ê³  ë””ìŠ¤í¬ ê³µê°„ì„ ìµœì í™”ì‹œí‚µë‹ˆë‹¤.
+echo 5´Ü°è ÇÁ·Î¼¼½º. cleanmgr.exe¸¦ ÀÌ¿ëÇØ ÇÊ¿ä ¾ø´Â ÀÓ½Ã ÆÄÀÏÀ» Á¦°ÅÇÏ¿© ¼º´ÉÀ» Çâ»ó½ÃÅ°°í µð½ºÅ© °ø°£À» ÃÖÀûÈ­½ÃÅµ´Ï´Ù.
 
 choice /t 3 /d y >   nul
 
@@ -194,19 +227,19 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT ë²„ì „: 1.02.06 HDD ì „ìš© Normal Edition
+echo PCOT ¹öÀü: 2.2023.02.17 HDD Àü¿ë Normal Edition
 
-echo 5ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
+echo 5´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
 
 choice /t 1 /d y >   nul
 
-echo ì´ í”„ë¡œì„¸ìŠ¤ëŠ” ìƒˆ ì°½ì´ ìƒì„±ë©ë‹ˆë‹¤. ë””ìŠ¤í¬ ì •ë¦¬ ì°½ì´ ìƒˆë¡œ ìƒì„±ë©ë‹ˆë‹¤. ì°½ì´ ìƒˆë¡œ ìƒì„±ë˜ë”ë¼ë„ ì´ ì°½ì„ ì ˆëŒ€ë¡œ ë‹«ì§€ ë§ˆì„¸ìš”. ë‹¤ìŒ í”„ë¡œì„¸ìŠ¤ ì§„í–‰ì´ ë˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
+echo ÀÌ ÇÁ·Î¼¼½º´Â »õ Ã¢ÀÌ »ý¼ºµË´Ï´Ù. µð½ºÅ© Á¤¸® Ã¢ÀÌ »õ·Î »ý¼ºµË´Ï´Ù. Ã¢ÀÌ »õ·Î »ý¼ºµÇ´õ¶óµµ ÀÌ Ã¢À» Àý´ë·Î ´ÝÁö ¸¶¼¼¿ä. ´ÙÀ½ ÇÁ·Î¼¼½º ÁøÇàÀÌ µÇÁö ¾Ê½À´Ï´Ù.
 
-echo ì •ë¦¬í•  ë“œë¼ì´ë¸Œì—ì„œ C:\ë¥¼ ì„ íƒí•˜ê³  í™•ì¸ ë²„íŠ¼ì„ ëˆ„ë¥¸ í›„ ë‚˜ì˜¤ëŠ” ì°½ì—ì„œ ì •ë¦¬í•  ìž„ì‹œ íŒŒì¼ì„ ì„ íƒí•˜ê³  ì •ë¦¬í•˜ì‹­ì‹œì˜¤.
+echo Á¤¸®ÇÒ µå¶óÀÌºê¿¡¼­ C:\¸¦ ¼±ÅÃÇÏ°í È®ÀÎ ¹öÆ°À» ´©¸¥ ÈÄ ³ª¿À´Â Ã¢¿¡¼­ Á¤¸®ÇÒ ÀÓ½Ã ÆÄÀÏÀ» ¼±ÅÃÇÏ°í Á¤¸®ÇÏ½Ê½Ã¿À.
 
 cleanmgr.exe
 
-echo 5ë‹¨ê³„ ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤.
+echo 5´Ü°è ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù.
 
 choice /t 3 /d /y >  nul
 
@@ -214,7 +247,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 6ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤. ìµœëŒ€ì ˆì „ëª¨ë“œë¥¼ ë¹„í™œì„±í™”í•˜ì—¬ ë””ìŠ¤í¬ë¥¼ ìµœì í™”í•©ë‹ˆë‹¤.
+echo 6´Ü°è ÇÁ·Î¼¼½º. ÃÖ´ëÀýÀü¸ðµå¸¦ ºñÈ°¼ºÈ­ÇÏ¿© µð½ºÅ©¸¦ ÃÖÀûÈ­ÇÕ´Ï´Ù.
 
 choice /t 3 /d y >   nul
 
@@ -222,13 +255,13 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT ë²„ì „: 1.02.06 HDD ì „ìš© Normal Edition
+echo PCOT ¹öÀü: 2.2023.02.17 HDD Àü¿ë Normal Edition
 
-echo 6ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
+echo 6´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
 
 choice /t 1 /d y >   nul
 
-powercfg -h /off
+powercfg -h off
 
 choice /t 1 /d y >  nul
 
@@ -236,7 +269,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 6ë‹¨ê³„ ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤.
+echo 6´Ü°è ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù.
 
 choice /t 3 /d /y >  nul
 
@@ -244,7 +277,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 7ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤. ë””ìŠ¤í¬ë¥¼ ì¡°ê°ëª¨ìŒí•˜ì—¬ ë””ìŠ¤í¬ ì„±ëŠ¥ì„ ê°œì„ í•©ë‹ˆë‹¤.
+echo 7´Ü°è ÇÁ·Î¼¼½º. µð½ºÅ©¸¦ Á¶°¢¸ðÀ½ÇÏ¿© µð½ºÅ© ¼º´ÉÀ» °³¼±ÇÕ´Ï´Ù.
 
 choice /t 3 /d y >   nul
 
@@ -252,9 +285,9 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT ë²„ì „: 1.02.06 HDD ì „ìš© Normal Edition
+echo PCOT ¹öÀü: 2.2023.02.17 HDD Àü¿ë Normal Edition
 
-echo 7ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
+echo 7´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
 
 choice /t 1 /d y >   nul
 
@@ -266,7 +299,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 7ë‹¨ê³„ ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤.
+echo 7´Ü°è ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù.
 
 choice /t 3 /d /y >  nul
 
@@ -274,7 +307,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 8ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤. ëˆˆì— ë³´ì´ì§€ ì•ŠëŠ” íŒŒì¼ë“¤ì„ ì‚­ì œí•˜ì—¬ ë””ìŠ¤í¬ ê³µê°„ì„ ê°œì„ í•©ë‹ˆë‹¤.
+echo 8´Ü°è ÇÁ·Î¼¼½º. ´«¿¡ º¸ÀÌÁö ¾Ê´Â ÆÄÀÏµéÀ» »èÁ¦ÇÏ¿© µð½ºÅ© °ø°£À» °³¼±ÇÕ´Ï´Ù.
 
 choice /t 3 /d y >   nul
 
@@ -282,13 +315,13 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT ë²„ì „: 1.02.06 HDD ì „ìš© Normal Edition
+echo PCOT ¹öÀü: 2.2023.02.17 HDD Àü¿ë Normal Edition
 
-echo ì´ í”„ë¡œì„¸ìŠ¤ëŠ” 1ì‹œê°„ ì´ìƒ ì†Œìš”ë©ë‹ˆë‹¤. ë˜í•œ ì´ ì°½ì„ ì œì™¸í•œ ëª¨ë“  ì°½ê³¼ í”„ë¡œê·¸ëž¨ì„ ë‹«ì•„ì•¼í•©ë‹ˆë‹¤. 30ì´ˆ í›„ ì‹¤í–‰ë©ë‹ˆë‹¤.
+echo ÀÌ ÇÁ·Î¼¼½º´Â 1½Ã°£ ÀÌ»ó ¼Ò¿äµË´Ï´Ù. ¶ÇÇÑ ÀÌ Ã¢À» Á¦¿ÜÇÑ ¸ðµç Ã¢°ú ÇÁ·Î±×·¥À» ´Ý¾Æ¾ßÇÕ´Ï´Ù. 30ÃÊ ÈÄ ½ÇÇàµË´Ï´Ù.
 
 timeout /t 30
 
-echo 8ë‹¨ê³„ í”„ë¡œì„¸ìŠ¤ ì‹¤í–‰ì¤‘ . . .
+echo 8´Ü°è ÇÁ·Î¼¼½º ½ÇÇàÁß . . .
 
 choice /t 1 /d y >   nul
 
@@ -300,21 +333,69 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 8ë‹¨ê³„ ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤.
+echo 8´Ü°è ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù.
 
-choice /t 3 /d /y >  nul
+choice /t 3 /d y >  nul
 
 cls 
 
 choice /t 1 /d y >  nul
 
-echo ëª¨ë“  ìž‘ì—…ì´ ëë‚¬ìŠµë‹ˆë‹¤. ì»´í“¨í„°ê°€ ìžë™ìœ¼ë¡œ ìž¬ì‹œë™ë©ë‹ˆë‹¤. ë‚˜ì¤‘ì— ìž¬ì‹œë™í•˜ë ¤ë©´ 30ì´ˆ ì•ˆì— ì´ ì°½ì„ ë„ì‹­ì‹œì˜¤. 30ì´ˆ ì¹´ìš´íŠ¸ë‹¤ìš´ì´ ì§„í–‰ë©ë‹ˆë‹¤. 
+echo 9´Ü°è ÇÁ·Î¼¼½º. ¿©±â¼­ºÎÅÍ´Â ºÎÆÃ ¹× °ÔÀÓ ÃÖÀûÈ­°¡ ½ÃÀÛµË´Ï´Ù. bcdedit°ú fsutil, ±×¸®°í REG add¸¦ ÀÌ¿ëÇÏ¿© ºÎÆÃ ½Ã°£À» ÁÙÀÌ°í, °ÔÀÓ È¯°æ¿¡ ÃÖÀûÈ­½ÃÅµ´Ï´Ù.
+
+pause
+
+choice /t 1 /d y >  nul
+
+echo PCOT ¹öÀü: 2.2023.02.17 SSD/HDD °â¿ë Edition
+
+choice /t 1 /d y >  nul
+
+echo 9´Ü°è ÇÁ·Î¼¼½º ½ÇÇà Áß
+
+bcdedit /set disabledynamictick yes
+
+choice /t 1 /d y >  nul
+
+bcdedit /set useplatformtick yes 
+
+choice /t 1 /d y >  nul
+
+bcdedit /set useplatformclock false
+
+choice /t 1 /d y >  nul
+
+fsutil behavior query memoryusage
+
+choice /t 1 /d y >  nul
+
+fsutil behavior set memoryusage 2
+
+choice /t 1 /d y >  nul
+
+REG add "HKCU\Control Panel" /v ForegroundLockTimeout /t REG_DWORD /d 0 /f
+
+choice /t 1 /d y >  nul
+
+REG add "HKCU\Control Panel" /v MenuShowDelay /t REG_SZ /d 100 /f
+
+choice /t 1 /d y >  nul
+
+REG add "HKLM\SYSTEM\CurrentControlSet\Control" /v WaitToKillServiceTimeout /t REG_SZ /d 5000 /f
+
+choice /t 1 /d y >  nul
+
+cls
+
+choice /t 3 /d y >  nul
+
+echo ¸ðµç ÀÛ¾÷ÀÌ ³¡³µ½À´Ï´Ù. ÄÄÇ»ÅÍ°¡ ÀÚµ¿À¸·Î Àç½Ãµ¿µË´Ï´Ù. ³ªÁß¿¡ Àç½Ãµ¿ÇÏ·Á¸é 30ÃÊ ¾È¿¡ ÀÌ Ã¢À» ²ô½Ê½Ã¿À. 30ÃÊ Ä«¿îÆ®´Ù¿îÀÌ ÁøÇàµË´Ï´Ù.
 
 timeout /t 30
 
-echo ì»´í“¨í„°ê°€ ìž ì‹œ í›„ ìž¬ì‹œë™ë©ë‹ˆë‹¤ . . .
+echo ÄÄÇ»ÅÍ°¡ Àá½Ã ÈÄ Àç½Ãµ¿µË´Ï´Ù . . .
 
-echo ì´ìš©í•´ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤.
+echo ÀÌ¿ëÇØÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù.
 
 shutdown -r -t 10
 
