@@ -1,18 +1,22 @@
 clear
 
+sleep 5
+
 echo 경고! 이 프로그램은 알파 버전입니다! 사용하여 발생하는 모든 일의 책임은 본인에게 있습니다!
 
-sleep 3
+sleep 5
 
 clear
 
 sleep 5
 
-echo 이 프로그램은 관리자 권한을 요구합니다. sudo sh 입력 후 실행하는것이 좋습니다.
+echo 이 프로그램은 관리자 권한을 요구합니다. sudo su 입력 후 실행하는것이 좋습니다.
 
 sleep 5
 
 clear
+
+sleep 1
 
 echo 도구를 초기화 하는 중 . . .
 
