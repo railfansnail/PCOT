@@ -11,7 +11,7 @@
 
 
 
-아래는 Ubuntu OS의 버전 
+아래는 Ubuntu 
 --------------------
 
 Ubuntu Version의 경우 PUV.sh를 다운받은 다음, 터미널을 실행시켜 PUV.sh가 있는 곳으로 cd 명령어를 이용하여 이동합니다.
