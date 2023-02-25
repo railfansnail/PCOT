@@ -225,7 +225,7 @@ echo 작업이 끝났습니다. 잠시 후 자동으로 재시동 됩니다. 나
 
 sleep 30
 
-restart
+reboot
 
 
 
