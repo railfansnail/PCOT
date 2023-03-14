@@ -10,4 +10,4 @@ git clone https://github.com/railfansnail/PCOT.git
 
 cd PCOT
 
-sh ./PAU.sh
+sh ./PUV.sh
