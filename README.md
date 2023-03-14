@@ -28,6 +28,9 @@ PCOT 3.0 M1 사용가이드
 Ubuntu 전용 가이드
 -----------------------------
 
+**주의! 이 버전은 정식 출시버전이 아닙니다. 따라서 정식 패키지로 배포되지 않으며, Code > Zip 파일 다운로드 형태로 배포되고있음을 알려드립니다.**
+
+
 Ubuntu Version의 경우 PUV.sh를 다운받은 다음, 터미널을 실행시켜 PUV.sh가 있는 곳으로 cd 명령어를 이용하여 이동합니다.
 
 그런 다음 sudo su를 입력 후 계정 비밀번호를 입력하라는 메세지가 표시되면 계정 비밀번호를 입력하고, sh ./PUV.sh를 입력 후 실행합니다.
@@ -38,7 +41,7 @@ Ubuntu Version의 경우 온라인 버전이 존재합니다. 온라인 버전�
 
 실행 방법은 거의 같습니다.
 
-PUV.sh를 다운받은 다음, 터미널을 실행시켜 PUVOnlineDownloader.sh가 있는 곳으로 cd 명령어를 이용하여 이동합니다.
+PUVOnlineDownloader.sh를 다운받은 다음, 터미널을 실행시켜 PUVOnlineDownloader.sh가 있는 곳으로 cd 명령어를 이용하여 이동합니다.
 
 그런 다음 sudo su를 입력 후 계정 비밀번호를 입력하라는 메세지가 표시되면 계정 비밀번호를 입력하고, sh ./PUVOnlineDownloader.sh를 입력 후 실행합니다.
 
