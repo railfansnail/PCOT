@@ -4,15 +4,18 @@ color 3F
 
 choice /t 3 /d y >   nul
 
-echo 만든 사람: 철덕팽이
-
-echo 배포 클라우드에서 꼭 최신 버전을 내려받아 사용하세요! (http://naver.me/53BTDDvq)
+echo 만든 사람: 철팽이
+echo.
+echo 배포 클라우드에서 꼭 최신 버전을 내려받아 사용하세요! (https://github.com/railfansnail/pcot)
 
 choice /t 5 /d y >   nul
 
 cls
 
 echo PCOT 버전: 4.1
+echo.
+echo.
+echo PCOT 개발진이 직접 만든 끄투를 즐기려면? (https://rfskkutu.site)
 
 choice /t 2 /d y >   nul
 
@@ -40,8 +43,8 @@ cls
 choice /t 1 /d y >   nul
 
 echo 원하는 최적화 방법을 선택하세요.
-
-
+echo.
+echo.
 choice /C 12 /N /M "(구성요소 복구와 시스템 파일 검사만 하려면 1 입력 [긴급복구모드] / 다른 최적화까지 모두 실행하려면 2 입력 [정상실행모드])"
 if %errorlevel% equ 1 goto :mode1
 if %errorlevel% equ 2 goto :mode2
@@ -52,8 +55,8 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 3.0 마일스톤 2 (M2) 구성요소 복구 / 시스템 파일 검사 전용모드 [긴급복구모드]
-
+echo PCOT 버전: 4.1 구성요소 복구 / 시스템 파일 검사 전용모드 [긴급복구모드]
+echo.
 echo 1단계 프로세스 실행중 . . .
 
 choice /t 1 /d y >   nul
@@ -79,7 +82,7 @@ DISM.exe /online /cleanup-image /restorehealth
 choice /t 1 /d y >  nul
 
 echo 4단계 프로세스 실행중 . . .
-
+echo.
 choice /t 1 /d y >   nul
 
 sfc /scannow
@@ -90,10 +93,8 @@ cls
 
 choice /t 1 /d y >  nul
 
-PCOTEnded.vbs
-
-echo 지금 재시동하시겠습니까?
-
+echo 비상 복구를 완료하였습니다. 시스템을 정상적으로 복구하려면 지금 재시동해야합니다. 지금 재시동하시겠습니까?
+echo.
 choice /C YN /N /M "(지금 재시동하려면 Y / 나중에 재시동하려면 N)"
 if %errorlevel% equ 1 shutdown -r -t 00
 if %errorlevel% equ 2 exit
@@ -112,7 +113,7 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 3.0 마일스톤 2 (M2) [정상실행모드]
+echo PCOT 버전: 4.1 [정상실행모드]
 
 choice /t 3 /d y >   nul
 
@@ -124,10 +125,10 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 3.0 마일스톤 2 (M2)
-
+echo PCOT 버전: 4.1
+echo.
 echo 1-1단계 프로세스 실행중 . . .
-
+echo.
 choice /t 1 /d y >   nul
 
 DISM.exe /online /cleanup-image /checkhealth
@@ -135,7 +136,7 @@ DISM.exe /online /cleanup-image /checkhealth
 choice /t 1 /d y >  nul
 
 echo 1-2단계 프로세스 실행중 . . .
-
+echo.
 choice /t 1 /d y >   nul
 
 DISM.exe /online /cleanup-image /scanhealth
@@ -143,7 +144,7 @@ DISM.exe /online /cleanup-image /scanhealth
 choice /t 1 /d y >  nul
 
 echo 1-3단계 프로세스 실행중 . . .
-
+echo.
 choice /t 1 /d y >   nul
 
 DISM.exe /online /cleanup-image /restorehealth
@@ -170,10 +171,10 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 3.0 마일스톤 2 (M2)
-
+echo PCOT 버전: 4.1
+echo.
 echo 2단계 프로세스 실행중 . . .
-
+echo.
 choice /t 1 /d y >   nul
 
 sfc /scannow
@@ -200,10 +201,10 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 3.0 마일스톤 2 (M2)
-
+echo PCOT 버전: 4.1
+echo.
 echo 3-1단계 프로세스 실행중 . . .
-
+echo.
 choice /t 1 /d y >   nul
 
 ipconfig /displaydns
@@ -211,7 +212,7 @@ ipconfig /displaydns
 choice /t 1 /d y >  nul
 
 echo 3-2단계 프로세스 실행중 . . .
-
+echo.
 ipconfig /flushdns
 
 choice /t 1 /d y >  nul
@@ -236,7 +237,7 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 3.0 마일스톤 2 (M2)
+echo PCOT 버전: 4.1
 
 echo 4-1단계 프로세스 실행중 . . .
 
@@ -272,15 +273,17 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 3.0 마일스톤 2 (M2)
+echo PCOT 버전: 4.1
 
 echo 5단계 프로세스 실행중 . . .
 
 choice /t 1 /d y >   nul
 
-PCOTDiskInfo.vbs
-
-choice /t 1 /d y >   nul
+echo.
+echo.
+echo 디스크 정리 프로세스가 이 PC에서 필요 없는 파일을 제거하고 있습니다 . . .
+echo.
+echo 이 창을 닫지 마세요. 예측하지 못한 오류가 발생할 수 있습니다.
 
 cleanmgr.exe
 
@@ -292,7 +295,7 @@ cls
 
 choice /t 1 /d y >  nul
 
-echo 6단계 프로세스. 최대절전모드를 비활성화하여 디스크를 최적화합니다.
+echo 6단계 프로세스. 최대절전모드를 비활성화하여 디스크를 최적화합니다. (PCOT에서 최대절전모드 비활성화는 기본 설정으로 동작합니다.)
 
 choice /t 3 /d y >   nul
 
@@ -300,7 +303,7 @@ cls
 
 choice /t 1 /d y >   nul
 
-echo PCOT 버전: 3.0 마일스톤 2 (M2)
+echo PCOT 버전: 4.1
 
 echo 6단계 프로세스 실행중 . . .
 
@@ -324,7 +327,7 @@ choice /t 1 /d y >  nul
 
 echo 7단계 프로세스. 여기서부터는 부팅 및 게임 최적화가 시작됩니다. bcdedit과 fsutil, 그리고 REG add를 이용하여 부팅 시간을 줄이고, 게임 환경에 최적화시킵니다.
 
-echo PC를 게임용으로 최적화하시겠습니까?
+echo PC를 게임용으로 최적화하시겠습니까? 이 작업은 신중해야합니다. 이 작업을 정말 실행하려면 Y를 입력하십시오.
 choice /C YN /N /M "(게임용으로 최적화하려면 Y / 게임용으로 최적화하지 않으려면 N)"
 if %errorlevel% equ 1 goto :gamemodeyes
 if %errorlevel% equ 2 goto :gamemodeno
@@ -332,7 +335,7 @@ if %errorlevel% equ 2 goto :gamemodeno
 :gamemodeyes
 choice /t 1 /d y >  nul
 
-echo PCOT 버전: 3.0 마일스톤 2 (M2)
+echo PCOT 버전: 4.1
 
 choice /t 1 /d y >  nul
 
@@ -376,16 +379,14 @@ choice /t 3 /d y >  nul
 
 PCOTEnded.vbs
 
-echo 지금 재시동하시겠습니까?
+echo 게임모드로 최적화되었습니다. 이후 발생하는 버그는 책임지지 않습니다. 지금 재시동하시겠습니까?
 
 choice /C YN /N /M "(지금 재시동하려면 Y / 나중에 재시동하려면 N)"
 if %errorlevel% equ 1 shutdown -r -t 00
 if %errorlevel% equ 2 exit
 
 :gamemodeno
-PCOTEnded.vbs
-
-echo 지금 재시동하시겠습니까?
+echo 비 게임모드로 최적화되었습니다. 지금 재시동하시겠습니까?
 
 choice /C YN /N /M "(지금 재시동하려면 Y / 나중에 재시동하려면 N)"
 if %errorlevel% equ 1 shutdown -r -t 00
